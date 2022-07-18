@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-brFrima;
+    font-size: 28px;
+  }
+
+  p,
+  a,
+  ul,
+  li {
+    @apply font-brFrima;
+  }
+}
+
+.file-upload input {
+  overflow: hidden;
+  width: 0;
+  border: none;
+  outline: none;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader img {
+  max-width: 50px;
+}
+
+@keyframes example {
+  0%   {background-color:  #6610f2;}
+  50%  {background-color: #6f42c1;}
+  100% {background-color: #e83e8c;}
+}
+
+/* The element to apply the animation to */
+.animation {
+  background-color: #6610f2;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+}

@@ -1,0 +1,102 @@
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'],
+  theme: {
+    extend: {
+      width: {
+        5: "5%",
+        10: "10%",
+        15: "18%",
+        20: "20%",
+        30: "30%",
+        35: "35%",
+        40: "40%",
+        45: "48%",
+        50: "50%",
+        55: "55%",
+        60: "60%",
+        65: "65%",
+        70: "70%",
+        75: "75%",
+        80: "80%",
+        85: "85%",
+        90: "90%",
+        95: "95%",
+        100: "100%",
+        "16px": "16px",
+        "30px": "30px",
+        "154px": "154px",
+        "124px": "124px",
+        "108.95px": "108.95px",
+        "40px": "40px",
+        "32px": "32px",
+        "24px": "24px",
+      },
+      height: {
+        5: "5%",
+        10: "10%",
+        15: "15%",
+        20: "20%",
+        30: "30%",
+        35: "35%",
+        40: "40%",
+        45: "45%",
+        50: "50%",
+        55: "55%",
+        60: "60%",
+        65: "65%",
+        70: "70%",
+        75: "75%",
+        80: "80%",
+        85: "85%",
+        90: "90%",
+        95: "95%",
+        100: "100%",
+        "2px": "2px",
+        "16px": "16px",
+        "profile-card-h": "243px",
+        "30px": "30px",
+        "154px": "154px",
+        "124px": "124px",
+        "24px": "24px",
+        "40px": "40px",
+        "32px": "32px",
+        "170px": "170px",
+        "376px": "376px",
+        "400px": "400px"
+      },
+      minHeight: {
+        "400px": "400px"
+      },
+      colors: {
+        "pink-light": '#fa4a84',
+        "pink-bold": "#e83e8c",
+        "navy-blue": "#6f42c1",
+        "blue-light": "#6610f2",
+        "input-border": "linear-gradient(270deg, #00D2FF -8.34%, #7E51FF 50.93%, #FA4A84 106.85%)",
+        "input-bg": "#F4F8FB",
+        "text-color": "#8397AB",
+        "disable": "#fca3c1",
+        "progress": "#FFCF56"
+      },
+      fontFamily: {
+        brFrima: ["BR Firma Regular", "sans-serif"],
+      },
+      maxWidth: {
+        '376px': '450px',
+      },
+      fontSize: {
+        "24px": "24px",
+        "16px": "16px",
+        "14px": "14px"
+      }
+    },
+  },
+  variants: {
+    extend: {
+      borderWidth: ["hover", "focus"],
+    },
+  },
+  plugins: [],
+};
